@@ -2,9 +2,11 @@
  * Главный файл стилей.
  * Все паршалы подключаются сюда.
  */
+// Утилиты для HTML index
+@import './utils/general';
+@import './utils/variables';
 
-// Стили для файла с примером HTML-фрагмента
-@import './example';
+//  Стили для HTML index
 @import './header-hero';
 @import './products';
 @import './abouts';
@@ -13,3 +15,6 @@
 @import './customerreviews';
 @import './contacts';
 @import './footer';
+
+// Стили для файла с примером HTML-фрагмента
+@import './example';
