@@ -26,6 +26,8 @@
   line-height: 1.17;
   text-transform: uppercase;
   color: var(--main-label-tittle-color);
+  margin-bottom: 17px;
+  width: 234px;
 }
 
 .label-title {
@@ -37,6 +39,8 @@
   letter-spacing: 0.04em;
   text-transform: uppercase;
   color: var(--main-tittle-color);
+  margin-bottom: 43px;
+  width: 234px;
 }
 
 .contacts-text {
@@ -57,4 +61,16 @@
   line-height: 1.86;
   text-align: right;
   color: var(--main-tittle-color);
+}
+
+.social-list {
+  margin-bottom: 46px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.social-list__item {
+  width: 34px;
+  height: 34px;
+  margin-right: 28px;
 }
