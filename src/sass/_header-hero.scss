@@ -1,0 +1,33 @@
+.container {
+  margin: 0 auto;
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  @media screen and (min-width: 480px) {
+    max-width: 480px;
+  }
+  @media screen and (min-width: 768px) {
+    max-width: 768px;
+  }
+  @media screen and (min-width: 1280px) {
+    max-width: 1200px;
+  }
+}
+
+.mob-menu{
+  background-color: #E17992;
+}
+.mob-menu__close{
+  margin-left: auto;
+  background: transparent;
+
+}
+.mob-menu__btn{
+  display: block;
+  width: 209px;
+  height: 44px;
+  border-radius: 22px;
+  border:none;
+  background: #ffffff;
+
+}
