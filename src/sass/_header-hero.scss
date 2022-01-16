@@ -1,26 +1,34 @@
-.container {
-  margin: 0 auto;
-  width: 100%;
-  padding-left: 15px;
-  padding-right: 15px;
-  @media screen and (min-width: 480px) {
-    max-width: 480px;
-  }
-  @media screen and (min-width: 768px) {
-    max-width: 768px;
-  }
-  @media screen and (min-width: 1280px) {
-    max-width: 1200px;
-  }
+
+.header-logo{
+  display: block;
+width: 199px;
+height: 50px;
+}
+img{
+  max-width: 100%;
 }
 
 .mob-menu{
+  position: relative;
   background-color: #E17992;
+  width: 100vw;
+  height: 100vh;
 }
-.mob-menu__close{
-  margin-left: auto;
-  background: transparent;
-
+.close-menu__btn{
+position: absolute;
+width: 14px;
+height: 14px;
+top: 10px;
+right: 15px;
+margin-left: auto;
+border: none;
+background-color: transparent;
+}
+.close-menu__svg{
+  fill: #ffffff;
+}
+.open-menu__svg{
+fill: #D41443;
 }
 .mob-menu__btn{
   display: block;
