@@ -121,7 +121,7 @@
 
 .products-section__item--first {
   position: relative;
-  background-color: #FFB8CA;
+  background-color: var(--products-card-first-color);
 
   &::before {
       position: absolute;
@@ -239,7 +239,7 @@
   height: 40px;
   border: 0;
   border-radius: 50%;
-  background-color: #FFFFFF;
+  background-color: var(--products-button-color);
 
 
 }
@@ -255,7 +255,7 @@
 }
 
 .products-section__item--second {
-  background-color: #F0D1A5;
+  background-color: var( --products-card-second-color);
   position: relative;
 
   &::before {
@@ -312,7 +312,7 @@
 }
 
 .products-section__item--third {
-  background-color: #C2E297;
+  background-color: var(--products-card-third-color);
   position: relative;
 
   &::before {
