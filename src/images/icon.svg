@@ -39,6 +39,8 @@
 <symbol id="Burger" viewBox="0 0 46 32">
 <path  stroke="#d41443" style="stroke: var(--color1, #d41443)" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="2.2857" d="M0 2.296h45.716M0 16.011h45.716M0 29.726h45.716"></path>
 </symbol>
-
+<symbol id="aboutvector" viewBox="0 0 32 32">
+<path stroke="#D41443" style="stroke: var(--color1, #D41443)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="6.4" d="M8.372 3.2l14.169 12.8-14.169 12.8"></path>
+</symbol>
 </defs>
 </svg>
