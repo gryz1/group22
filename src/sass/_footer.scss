@@ -12,9 +12,14 @@
   }
   @media screen and (min-width: 768px) {
     max-width: 768px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
   }
   @media screen and (min-width: 1280px) {
     max-width: 1280px;
+    flex-wrap: nowrap;
+    justify-content: start;
   }
 }
 
@@ -33,6 +38,7 @@
     line-height: 1.15;
   }
   @media screen and (min-width: 1280px) {
+    width: 474px;
     font-size: 30px;
     line-height: 1.15;
   }
@@ -54,8 +60,20 @@
     line-height: 1.15;
   }
   @media screen and (min-width: 1280px) {
+    width: 474px;
     font-size: 58px;
     line-height: 1.14;
+  }
+}
+
+.social-contacts-contacts {
+  @media screen and (min-width: 768px) {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  @media screen and (min-width: 1200px) {
+    text-align: right;
   }
 }
 
@@ -75,6 +93,8 @@
   @media screen and (min-width: 1280px) {
     font-size: 16px;
     line-height: 1.88;
+    margin-left: 257px;
+    margin-right: 116px;
   }
 }
 
@@ -96,6 +116,10 @@
   margin-bottom: 46px;
   display: flex;
   justify-content: flex-end;
+  @media screen and (min-width: 1280px) {
+    margin-left: 420px;
+    margin-right: 121px;
+  }
 }
 
 .social-list__item {
