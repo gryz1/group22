@@ -1,6 +1,24 @@
 <section class="costomer-reviews-section">
   <div class="container costomer-reviews-conteiner">
-    <h2 class="">costomer-reviews</h2>
-    <img src="../images/customer-reviews/girl-mob.jpg" alt="foto of customer" />
+    <h2 class="visually-hidden">costomer-reviews</h2>
+    <picture>
+      <source
+        srcset="
+          ./images/customer-reviews/girl-mob.jpg    1x,
+          ./images/customer-reviews/girl-mob@2x.jpg 2x
+        "
+        media="(min-width: 480px)"
+      />
+      <img
+        class="costomer-reviews__foto"
+        src="./images/customer-reviews/girl-mob.jpg "
+        alt="foto of customer"
+      />
+    </picture>
+
+    <p>
+      Nullam viverra consectetuer. Quisque cursus et, porttitor risus. Aliquam sem. In hendrerit
+      nulla quam nunc, accumsan congue. Lorem ipsum primis in nibh vel risus.
+    </p>
   </div>
 </section>
