@@ -188,7 +188,7 @@
   letter-spacing: 0.04em;
   text-transform: uppercase;
 
-  color: #FFFFFF;
+  color: var(--second-tittle-color);
 
   &::after {
       position: absolute;
@@ -214,7 +214,7 @@
 
   letter-spacing: 0.04em;
 
-  color: #FFFFFF;
+  color: var(--main-text-color);
 
   @media screen and (min-width: 768px) and (max-width:1279.5px) {
       line-height: 1.76;
@@ -245,7 +245,7 @@
 }
 
 .products-section__icon {
-  fill: #D41443;
+  fill: var(--active--svg-color);
 }
 
 .products-section__list-text--hidden {
