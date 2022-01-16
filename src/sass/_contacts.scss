@@ -1,4 +1,10 @@
-<<<<<<< Updated upstream
+.container {
+  margin: 0 auto;
+  width: 100%;
+  //padding-left: 15px;
+  //padding-right: 15px;
+}
+
 .contacts {
   background: #fff5f6;
 }
@@ -10,12 +16,7 @@
 
   @media screen and (min-width: 768px) {
     display: inline-flex;
-=======
-.container {
-  margin: 0 auto;
-  width: 100%;
-  //padding-left: 15px;
-  //padding-right: 15px;
+  }
 
   @media screen and (min-width: 320px) {
     max-width: 320px;
@@ -50,18 +51,14 @@
 .contacts-list {
   @media screen and (min-width: 768px) {
     display: flex;
->>>>>>> Stashed changes
     flex-wrap: wrap;
     margin-bottom: 0px;
   }
 }
 
 .contacts-list__item {
-<<<<<<< Updated upstream
   position: relative;
-=======
   //position: relative;
->>>>>>> Stashed changes
 
   background: var(--second-tittle-color);
   border: 1px solid var(--line-second-color);
@@ -72,15 +69,12 @@
   @media screen and (min-width: 320px) {
     width: 220px;
     height: 427px;
-<<<<<<< Updated upstream
 
     margin-left: 50px;
     margin-bottom: 20px;
-=======
     margin-left: 50px;
     margin-bottom: 20px;
     overflow: hidden;
->>>>>>> Stashed changes
   }
 
   @media screen and (min-width: 768px) {
@@ -95,20 +89,14 @@
     @media screen and (min-width: 1280px) {
       width: 330px;
       height: 572px;
-<<<<<<< Updated upstream
-=======
       margin-left: 30px;
->>>>>>> Stashed changes
     }
   }
 }
 
 .contacts-list__title {
   font-weight: 500;
-<<<<<<< Updated upstream
   font-size: 12px;
-=======
->>>>>>> Stashed changes
   line-height: 1.86;
 
   letter-spacing: 0.04em;
@@ -294,20 +282,14 @@
     width: 80px;
     height: 16px;
     border-radius: 4px;
-<<<<<<< Updated upstream
-=======
     line-height: 16px;
->>>>>>> Stashed changes
   }
 
   @media screen and (min-width: 768px) {
     width: 73px;
     height: 28px;
     border-radius: 6px;
-<<<<<<< Updated upstream
-=======
     line-height: 28px;
->>>>>>> Stashed changes
   }
 }
 
@@ -318,10 +300,7 @@
     width: 130px;
     height: 16px;
     border-radius: 4px;
-<<<<<<< Updated upstream
-=======
     align-items: center;
->>>>>>> Stashed changes
   }
 
   @media screen and (min-width: 768px) {
@@ -355,11 +334,8 @@
 
 .contacts-buttons {
   @media screen and (min-width: 320px) {
-<<<<<<< Updated upstream
     margin-top: 54px;
-=======
     margin-top: 34px;
->>>>>>> Stashed changes
     margin-left: 79px;
     width: 162px;
     height: 98px;
@@ -385,29 +361,20 @@
   text-decoration: none;
   border: none;
   color: var(--second-tittle-color);
-<<<<<<< Updated upstream
-=======
   fill: #d41342;
->>>>>>> Stashed changes
   background: #d41342;
   border-radius: 22px;
 
   @media screen and (min-width: 320px) {
     width: 161.45px;
     height: 44px;
-<<<<<<< Updated upstream
-=======
     margin-bottom: 10px;
->>>>>>> Stashed changes
   }
 
   @media screen and (min-width: 768px) {
     width: 192px;
     height: 44px;
-<<<<<<< Updated upstream
-=======
     margin-bottom: 0px;
->>>>>>> Stashed changes
   }
 
   @media screen and (min-width: 1280px) {
@@ -420,11 +387,8 @@
   text-decoration: none;
   border: none;
 
-<<<<<<< Updated upstream
   color: #d41342;
-=======
   fill: var(--second-tittle-color);
->>>>>>> Stashed changes
   background: var(--second-tittle-color);
   border-radius: 22px;
   @media screen and (min-width: 320px) {
@@ -445,10 +409,9 @@
   }
 }
 
-<<<<<<< Updated upstream
 .contacts-buttons__icon {
   margin-left: 14px;
-=======
+}
 .contacts-buttons__icon-locations {
   margin-left: 14px;
 }
@@ -456,5 +419,4 @@
 .contacts-buttons__icon-franchise {
   margin-left: 14px;
   color: var(--second-tittle-color);
->>>>>>> Stashed changes
 }
