@@ -3,7 +3,7 @@ body {
 }
 
 .container {
-  width: 1280px;
+  width: 1080px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
@@ -28,13 +28,10 @@ img {
 ul {
   margin: 0;
   padding: 0;
-}
-
-.list {
   list-style: none;
 }
 
-.link {
+a {
   text-decoration: none;
   cursor: pointer;
 }
