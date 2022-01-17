@@ -4,6 +4,8 @@
 
 .gallery {
   margin: auto;
+  background-size: cover;
+  background-position: center;
   @media screen and (min-width: 480px) {
     max-width: 480px;
   }
@@ -13,5 +15,14 @@
   @media screen and (min-width: 1280px) {
     max-width: 1280px;
   }
-  //   background: linear-gradient(180deg, rgba(255, 245, 246, 1) 40%, rgba(255, 255, 255, 1) 40%);
+}
+
+.gallery-section {
+  align-items: center;
+  background: linear-gradient(180deg, rgba(255, 245, 246, 1) 40%, rgba(255, 255, 255, 1) 40%);
+}
+
+.gallery__container {
+  margin: 0 auto;
+  max-width: 320px;
 }
