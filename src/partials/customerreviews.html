@@ -4,6 +4,20 @@
     <picture>
       <source
         srcset="
+          ./images/customer-reviews/girl-desktop.jpg    1x,
+          ./images/customer-reviews/girl-desktop@2x.jpg 2x
+        "
+        media="(min-width: 1280px)"
+      />
+      <source
+        srcset="
+          ./images/customer-reviews/girl-tab.jpg    1x,
+          ./images/customer-reviews/girl-tab@2x.jpg 2x
+        "
+        media="(min-width: 768px)"
+      />
+      <source
+        srcset="
           ./images/customer-reviews/girl-mob.jpg    1x,
           ./images/customer-reviews/girl-mob@2x.jpg 2x
         "
@@ -11,6 +25,8 @@
       />
       <img
         class="costomer-reviews__foto"
+        width="85px"
+        height="85px"
         src="./images/customer-reviews/girl-mob.jpg "
         alt="foto of customer"
       />
@@ -32,7 +48,23 @@
         <div class="costomer-reviews__dot"></div>
       </div>
       <p class="costomer-reviews__name">Emily, Los Angeles</p>
-      <div class="costomer-reviews__pagination"></div>
+      <ul class="costomer-reviews__pagination">
+        <li class="pagination__list">
+          <svg class="pagination-item__home" width="12px" height="12px">
+            <use href="./images/icon.svg#customerreviewshome"></use>
+          </svg>
+        </li>
+        <li class="pagination__ellips">
+          <svg class="pagination-item__ellips" width="12px" height="12px">
+            <use href="./images/icon.svg#customerreviewsellipsered"></use>
+          </svg>
+        </li>
+        <li class="pagination__ellips">
+          <svg class="pagination-item__ellips" width="12px" height="12px">
+            <use href="./images/icon.svg#customerreviewsellipsered"></use>
+          </svg>
+        </li>
+      </ul>
     </div>
   </div>
 </section>
