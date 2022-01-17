@@ -2,13 +2,15 @@
     margin: 0 auto;
     max-width: 480px;
     height: auto;
-    padding-top: 766px;
+    // padding-top: 766px;
     margin-bottom: 39px;
     background-color: rgba(255, 245, 246, 1);
     background-image: url('../images/about/milk-mob.jpg');
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: contain;
+   
+    text-align: center;
     @media (min-device-pixel-ratio: 2),
         (min-resolution: 192dpi),
         (min-resolution: 2dppx){
@@ -22,39 +24,39 @@
         height: 534px;
         margin-top: 102px;
         background-color: rgba(255, 245, 246, 1);
-        background-image: url('../images/about/milk-desktop.jpg');
+        // background-image: url('../images/about/milk-desktop.jpg');
     }
     @media (min-device-pixel-ratio: 2),
         (min-resolution: 192dpi),
         (min-resolution: 2dppx) {
-            background-image: url('../images/about/milk-desktop@2x.jpg');
+            // background-image: url('../images/about/milk-desktop@2x.jpg');
     }
 }
 
 .about-container{
     margin: 0 auto;
-    width: 100%;
+    max-width: 320px;
     padding-left: 15px;
     padding-right: 15px;
-    @media screen and (min-width: 480px) {
+    @media screen and (max-width: 767px) {
     max-width: 480px;
     padding-top: 125px;
     }
     @media screen and (min-width: 768px) {
     max-width: 768px;
     }
-    @media screen and (min-width: 1200px) {
-    max-width: 1200px;
+    @media screen and (min-width: 1280px) {
+    max-width: 1280px;
     }
 }
 
 
-// .about__first-block{
-//     display: block;
-//     justify-content: center;
-//     align-items: center;
-//     margin-bottom: 26px;
-// }
+.about__first-block{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 26px;
+}
 
 .about__lable{
     font-family: Titan One;
@@ -72,9 +74,6 @@
         line-height: 1.15;  
         margin-bottom: 15px;
     }
-    
-    
-
 }
 
 .about__title{
@@ -83,7 +82,6 @@
     text-align: center;
     color: var(--main-tittle-color);
     text-align: center;
-    justify-content: center;
     max-width: 200px;
     @media screen and (min-width: 768px) {
         font-size: 34px;
