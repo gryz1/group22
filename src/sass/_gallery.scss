@@ -1,8 +1,7 @@
-.container-gallery {
-  background: linear-gradient(180deg, rgba(255, 245, 246, 1) 40%, rgba(255, 255, 255, 1) 40%);
-}
-
 .gallery {
+  img {
+    width: 100%;
+  }
   margin: auto;
   background-size: cover;
   background-position: center;
@@ -19,7 +18,11 @@
 
 .gallery-section {
   align-items: center;
+  padding-top: 50px;
   background: linear-gradient(180deg, rgba(255, 245, 246, 1) 40%, rgba(255, 255, 255, 1) 40%);
+  @media screen and (min-width: 768px) {
+    padding-top: 70px;
+  }
 }
 
 .gallery__container {
