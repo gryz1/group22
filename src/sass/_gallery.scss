@@ -4,6 +4,8 @@
 
 .gallery {
   margin: auto;
+  background-size: cover;
+  background-position: center;
   @media screen and (min-width: 480px) {
     max-width: 480px;
   }
