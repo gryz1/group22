@@ -1,0 +1,118 @@
+.header{
+  background-color: #FFB8CA;
+  margin: 0 auto;
+  padding-top: 6px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.header-logo{
+  display: block;
+width: 199px;
+height: 50px;
+}
+.open-menu-btn{
+  position: absolute;
+    display: flex;
+  justify-content: end;
+  align-items: center;
+  right: 15px;
+  top: 25px;
+  background-color: transparent;
+  border: none;
+    @media screen and (min-width: 1280px){
+    display: none;
+  }
+}
+.open-menu__svg{
+fill: #D41443;
+}
+
+.mob-menu{
+  display: none;
+  position: relative;
+  background-color: #E17992;
+  width: 100vw;
+  height: 100vh;
+}
+.close-menu__btn{
+position: absolute;
+width: 14px;
+height: 14px;
+top: 10px;
+right: 15px;
+margin-left: auto;
+border: none;
+background-color: transparent;
+}
+.close-menu__svg{
+  fill: #ffffff;
+}
+
+.mob-menu__btn{
+  display: block;
+  width: 209px;
+  height: 44px;
+  border-radius: 22px;
+  border:none;
+  background: #ffffff;
+
+}
+.hero-section{
+  padding-left: 20px;
+  background-color: #FFB8CA;
+  position: relative;
+}
+.hero-section__title{
+  font-family: Titan One;
+  font-style: normal;
+font-weight: normal;
+font-size: 26px;
+line-height: 1.15;
+letter-spacing: 0.04em;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+.hero-section__title-red{
+font-family: Titan One;
+font-style: normal;
+font-weight: normal;
+font-size: 48px;
+line-height: 0.96;
+text-transform: uppercase;
+color: #D41443;
+}
+.hero-section__first-button{
+width: 62.4px;
+height: 24px;
+border: none;
+background: #D41443;
+border-radius: 20px;
+font-family: DM Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 8px;
+line-height: 10px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #FFFFFF;
+}
+.hero-section__second-button{
+  width: 82.8px;
+height: 24px;
+border: none;
+background: #FFFFFF;
+border-radius: 20px;
+font-family: DM Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 8px;
+line-height: 10px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #D41443;
+}
+.hero-buttons{
+  display: flex;
+}
