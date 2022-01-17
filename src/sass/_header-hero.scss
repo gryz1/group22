@@ -1,6 +1,4 @@
 .header{
-//  padding-left: 46px;
-// padding-right: 115px;
   background-color: #FFB8CA;
   padding-top: 37px;
    }
@@ -31,7 +29,10 @@
   display: block;
 width: 199px;
 height: 50px;
+margin-right: 61px;
+@media screen and (min-width: 1280px){
 margin-right: auto;
+}
 @media screen and (min-width: 1280px){
   margin-right: 110px;
 }
