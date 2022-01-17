@@ -130,10 +130,18 @@
   }
 }
 
+.costomer-reviews__pagination {
+  margin-top: 30px;
+  @media screen and (min-width: 768px) {
+    margin-top: 35px;
+  }
+}
+
 .pagination-item__home {
   fill: #d31342;
 }
 
 .pagination-item__ellips {
   fill: #d9d9d9;
+  margin-left: 18px;
 }
