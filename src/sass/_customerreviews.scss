@@ -54,9 +54,25 @@
 }
 
 .text-wrapper__inner-wrapper {
+  position: relative;
   display: inline-block;
 }
+
+.costomer-reviews__quote {
+  position: absolute;
+  fill: #e1e1e1;
+  top: 24px;
+  left: 5px;
+  @media screen and (min-width: 768px) {
+    left: -40px;
+  }
+  @media screen and (min-width: 1280px) {
+    left: -35px;
+  }
+}
+
 .costomer-reviews__text {
+  position: inherit;
   padding-top: 43px;
   width: 157px;
   height: auto;
@@ -131,6 +147,8 @@
 }
 
 .costomer-reviews__pagination {
+  display: flex;
+  justify-content: center;
   margin-top: 30px;
   @media screen and (min-width: 768px) {
     margin-top: 35px;
