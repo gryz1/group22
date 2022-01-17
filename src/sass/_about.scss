@@ -1,38 +1,236 @@
+// .about {
+//   margin: 0 auto;
+//   width: 100%;
+//   padding-top: 125px;
+//   background-color: rgba(255, 245, 246, 1);
+//   background-image: url('../images/about/milk-mob.jpg');
+//   background-repeat: no-repeat;
+//   background-position: center;
+//   background-size: cover;
+//   @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+//     background-image: url('../images/about/milk-mob@2x.jpg');
+//   }
+//   @media screen and (min-width: 768px) {
+//     background-image: none;
+//   }
+//   @media screen and (min-width: 1200px) {
+//     max-width: 1280px;
+//     height: 534px;
+//     margin-top: 102px;
+//     background-image: url('../images/about/milk-desktop.jpg');
+//   }
+//   @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+//     background-image: url('../images/about/milk-desktop@2x.jpg');
+//   }
+// }
+
+// .about__first-block {
+//   display: block;
+// }
+
+// .about__lable {
+//   font-family: 'Titan One', sans-serif;
+//   font-weight: 400;
+//   font-size: 18px;
+//   line-height: 1.17;
+//   text-align: center;
+//   color: var(--main-label-tittle-color);
+// }
+
 .about {
+  display: block;
   margin: 0 auto;
-  width: 100%;
-  padding-top: 125px;
+  max-width: 320px;
+  padding-bottom: 39px;
   background-color: rgba(255, 245, 246, 1);
-  background-image: url('../images/about/milk-mob.jpg');
+  background-image: url('../images/about/milk-mob.png');
   background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+  background-position-y: 87%;
+  background-size: contain;
+  text-align: center;
   @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
-    background-image: url('../images/about/milk-mob@2x.jpg');
+    background-image: url('../images/about/milk-mob@2x.png');
   }
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 768px) and (max-width: 1279px) {
     background-image: none;
+    max-width: 1279px;
   }
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1280px) {
     max-width: 1280px;
     height: 534px;
     margin-top: 102px;
-    background-image: url('../images/about/milk-desktop.jpg');
+    background-color: rgba(255, 245, 246, 1);
+    background-image: url('../images/about/milk-desktop.png');
   }
   @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
-    background-image: url('../images/about/milk-desktop@2x.jpg');
+    background-image: url('../images/about/milk-desktop@2x.png');
   }
 }
-
-.about__first-block {
-  display: block;
+.about-container {
+  margin: 0 auto;
+  max-width: 320px;
+  padding-left: 15px;
+  padding-right: 15px;
+  @media screen and (max-width: 767px) {
+    max-width: 480px;
+    padding-top: 125px;
+  }
+  @media screen and (min-width: 768px) {
+    max-width: 768px;
+    padding-top: 135px;
+  }
+  @media screen and (min-width: 1280px) {
+    max-width: 1280px;
+  }
 }
-
-.about__lable {
-  font-family: 'Titan One', sans-serif;
+.about-title {
+  display: block;
+  margin-bottom: 26px;
+  max-width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  @media screen and (min-width: 768px) {
+    max-width: 429px;
+  }
+  @media screen and (min-width: 768px) {
+    max-width: 534px;
+  }
+}
+.about-title__lable {
+  font-family: Titan One;
   font-weight: 400;
-  font-size: 18px;
-  line-height: 1.17;
   text-align: center;
   color: var(--main-label-tittle-color);
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.17;
+  margin-bottom: 16px;
+  @media screen and (min-width: 768px) {
+    font-size: 26px;
+    line-height: 1.15;
+    margin-bottom: 15px;
+  }
+  @media screen and (min-width: 1280px) {
+    font-size: 30px;
+    line-height: 1.13;
+    margin-bottom: 15px;
+  }
+}
+.about-title__title {
+  font-family: Titan One;
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 1.15;
+  letter-spacing: 0.04em;
+  margin-bottom: 26px;
+  text-align: center;
+  color: var(--main-tittle-color);
+  text-align: center;
+  @media screen and (min-width: 768px) {
+    font-size: 48px;
+    line-height: 1.15;
+    letter-spacing: 0.04em;
+    margin-bottom: 50px;
+  }
+  @media screen and (min-width: 1280px) {
+    font-size: 58px;
+    line-height: 1.14;
+    letter-spacing: 0.06em;
+    margin-bottom: 50px;
+  }
+}
+.about__first-block {
+  @media screen and (min-width: 768px) {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+.about__second-block {
+  display: block;
+  max-width: 220px;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  @media screen and (min-width: 768px) {
+    margin-left: 17px;
+    margin-right: 0;
+    min-width: 340px;
+  }
+  @media screen and (min-width: 768px) {
+    margin-left: 74px;
+    margin-right: 0;
+    min-width: 463px;
+  }
+}
+.about__first-text {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.58;
+  text-align: left;
+  color: var(--second-text-color);
+  margin-top: 46px;
+  margin-bottom: 27px;
+  @media screen and (min-width: 768px) {
+    font-size: 14px;
+    line-height: 1.79;
+    margin-bottom: 26px;
+  }
+  @media screen and (min-width: 1280px) {
+    font-size: 16px;
+    line-height: 1.75;
+    letter-spacing: 0.04em;
+    margin-bottom: 35px;
+  }
+}
+.about__second-text {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.58;
+  letter-spacing: 0.1em;
+  text-align: left;
+  color: var(--third-text-color);
+  & + & {
+    margin-bottom: 19px;
+  }
+  @media screen and (min-width: 768px) {
+    font-size: 14px;
+    line-height: 1.76;
+    margin-bottom: 26px;
+    letter-spacing: 0.04em;
+  }
+  & + & {
+    margin-bottom: 26px;
+  }
+}
+.about__button {
+  display: flex;
+  width: 176px;
+  height: 44px;
+  display: flex;
+  text-align: center;
+  box-sizing: border-box;
+  font-family: inherit;
+  border: none;
+  border-radius: 38px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.29;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--second-tittle-color);
+  color: var(--active--svg-color);
+  fill: var(--active--svg-color);
+  margin-top: 27px;
+  transition-property: color, fill, background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover {
+    color: var(--second-tittle-color);
+    fill: var(--second-tittle-color);
+    border-color: var(--active--svg-color);
+  }
+}
+.about__icon {
+  margin-left: 14px;
 }
