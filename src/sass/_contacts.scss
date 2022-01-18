@@ -337,10 +337,12 @@
 }
 
 .contacts-buttons {
+  margin-left: auto;
+  margin-right: auto;
   @media screen and (min-width: 320px) {
     margin-top: 54px;
     margin-top: 34px;
-    margin-left: 79px;
+    //margin-left: 79px;
     width: 162px;
     height: 98px;
   }
@@ -348,14 +350,14 @@
   @media screen and (min-width: 768px) {
     display: flex;
     margin-top: 81px;
-    margin-left: 160px;
+    //margin-left: 196px;
     width: 380px;
     height: 44px;
   }
 
   @media screen and (min-width: 1280px) {
     margin-top: 86px;
-    margin-left: 393px;
+    //margin-left: 443px;
     width: 393px;
     height: 44px;
   }
