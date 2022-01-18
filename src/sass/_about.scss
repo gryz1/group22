@@ -1,69 +1,41 @@
-// .about {
-//   margin: 0 auto;
-//   width: 100%;
-//   padding-top: 125px;
-//   background-color: rgba(255, 245, 246, 1);
-//   background-image: url('../images/about/milk-mob.jpg');
-//   background-repeat: no-repeat;
-//   background-position: center;
-//   background-size: cover;
-//   @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
-//     background-image: url('../images/about/milk-mob@2x.jpg');
-//   }
-//   @media screen and (min-width: 768px) {
-//     background-image: none;
-//   }
-//   @media screen and (min-width: 1200px) {
-//     max-width: 1280px;
-//     height: 534px;
-//     margin-top: 102px;
-//     background-image: url('../images/about/milk-desktop.jpg');
-//   }
-//   @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
-//     background-image: url('../images/about/milk-desktop@2x.jpg');
-//   }
-// }
-
-// .about__first-block {
-//   display: block;
-// }
-
-// .about__lable {
-//   font-family: 'Titan One', sans-serif;
-//   font-weight: 400;
-//   font-size: 18px;
-//   line-height: 1.17;
-//   text-align: center;
-//   color: var(--main-label-tittle-color);
-// }
-
 .about {
-  display: block;
-  margin: 0 auto;
-  max-width: 320px;
-  padding-bottom: 39px;
-  background-color: rgba(255, 245, 246, 1);
-  background-image: url('../images/about/milk-mob.png');
-  background-repeat: no-repeat;
-  background-position-y: 87%;
-  background-size: contain;
-  text-align: center;
-  @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
-    background-image: url('../images/about/milk-mob@2x.png');
-  }
-  @media screen and (min-width: 768px) and (max-width: 1279px) {
-    background-image: none;
-    max-width: 1279px;
-  }
-  @media screen and (min-width: 1280px) {
-    max-width: 1280px;
-    margin-top: 102px;
+    display: block;
+    margin: 0 auto;
+    max-width: 320px;
+    padding-bottom: 39px;
+    text-align: center;
     background-color: rgba(255, 245, 246, 1);
-    background-image: url('../images/about/milk-desktop.png');
+    @media screen and (max-width: 767px) {
+      background-image: none;
+      max-width: 1279px;
+      background-image: url('../images/about/milk-mob.png');
+      background-repeat: no-repeat;
+      background-position-y: 87%;
+      background-size: contain;
+      @media (min-device-pixel-ratio: 2), 
+        (min-resolution: 192dpi), 
+        (min-resolution: 2dppx) {
+        background-image: url('../images/about/milk-mob@2x.png');
+    }
   }
-  @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
-    background-image: url('../images/about/milk-desktop@2x.png');
-  }
+    @media screen and (min-width: 768px) and (max-width: 1279px) {
+      max-width: 1279px;
+    }
+    @media screen and (min-width: 1280px) {
+      max-width: 1280px;
+      margin-top: 102px;
+      background-color: rgba(255, 245, 246, 1);
+      background-repeat: no-repeat;
+      background-position-y: 90%;
+      background-size: contain;
+      background-image: url('../images/about/milk-desktop.png');
+        @media (min-device-pixel-ratio: 2), 
+        (min-resolution: 192dpi), 
+        (min-resolution: 2dppx) {
+          background-image: url('../images/about/milk-desktop@2x.png');
+      }
+    }
+    
 }
 .about-container {
   margin: 0 auto;
@@ -155,7 +127,7 @@
     margin-right: 0;
     min-width: 340px;
   }
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 1280px) {
     margin-left: 74px;
     margin-right: 0;
     min-width: 463px;
@@ -217,16 +189,15 @@
   align-items: center;
   justify-content: center;
   background-color: var(--second-tittle-color);
-  color: var(--active--svg-color);
+  color: var(--main-tittle-color);
   fill: var(--active--svg-color);
   margin-top: 27px;
-  transition-property: color, fill, background-color;
+  transition-property: background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  &:hover {
-    color: var(--second-tittle-color);
-    fill: var(--second-tittle-color);
-    border-color: var(--active--svg-color);
+  &:hover,
+  &:focus {
+    background-color: rgba(236, 235, 235, 1);
   }
 }
 .about__icon {
