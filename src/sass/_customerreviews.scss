@@ -13,6 +13,9 @@
 
 .costomer-reviews-conteiner {
   width: 100%;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
 
   @media screen and (min-width: 480px) {
     max-width: 480px;
@@ -53,27 +56,11 @@
   }
 }
 
-.text-wrapper__inner-wrapper {
-  position: relative;
-  display: inline-block;
-}
-
-.costomer-reviews__quote {
-  position: absolute;
-  fill: #e1e1e1;
-  top: 24px;
-  left: 5px;
-  @media screen and (min-width: 768px) {
-    left: -40px;
-  }
-  @media screen and (min-width: 1280px) {
-    left: -35px;
-  }
-}
-
 .costomer-reviews__text {
-  position: inherit;
+  display: inline-block;
+  position: relative;
   padding-top: 43px;
+  padding-bottom: 20px;
   width: 157px;
   height: auto;
   font-family: DM Sans;
@@ -83,6 +70,8 @@
   line-height: 2.58;
 
   @media screen and (min-width: 768px) {
+    padding-top: 47px;
+    padding-bottom: 34px;
     width: 460px;
     height: auto;
     font-size: 14px;
@@ -97,10 +86,28 @@
   }
 }
 .costomer-reviews__text-underline {
+  position: inherit;
   background: linear-gradient(to left, #e1e1e1, #e1e1e1 100%);
   background-position: 0 100%;
   background-size: 100% 1px;
   background-repeat: repeat-x;
+}
+
+.costomer-reviews__text::before {
+  content: '';
+  background-image: url('../images/customer-reviews/quotes-min.png');
+  position: absolute;
+  width: 54px;
+  height: 40px;
+  background-repeat: no-repeat;
+  top: 25px;
+  left: 6px;
+  @media screen and (min-width: 768px) {
+    left: -38px;
+  }
+  @media screen and (min-width: 1280px) {
+    left: -36px;
+  }
 }
 
 .costomer-reviews__top-wrapper {
@@ -155,11 +162,14 @@
   }
 }
 
+.pagination__ellips {
+  margin-left: 18px;
+}
+
 .pagination-item__home {
   fill: #d31342;
 }
 
 .pagination-item__ellips {
   fill: #d9d9d9;
-  margin-left: 18px;
 }

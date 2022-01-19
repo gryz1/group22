@@ -9,8 +9,8 @@
       background-repeat: no-repeat;
       background-position-y: 87%;
       background-size: contain;
-      @media (min-device-pixel-ratio: 2), 
-        (min-resolution: 192dpi), 
+      @media (min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
         (min-resolution: 2dppx) {
         background-image: url('../images/about/milk-mob@2x.png');
       }
@@ -26,13 +26,14 @@
       background-position-y: 90%;
       background-size: contain;
       background-image: url('../images/about/milk-desktop.png');
-        @media (min-device-pixel-ratio: 2), 
-        (min-resolution: 192dpi), 
+        @media (min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
         (min-resolution: 2dppx) {
           background-image: url('../images/about/milk-desktop@2x.png');
         }
     }
 }
+
 
 .about-container {
   margin: 0 auto;
