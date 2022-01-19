@@ -1,18 +1,26 @@
 .header {
   background-color: #ffb8ca;
-  padding-top: 37px;
+  
+  overflow: hidden;
 }
 
 .header-container {
   position: relative;
-  padding-left: 20px;
+ padding-top: 6px;
+   padding-left: 20px;
   padding-right: 20px;
+  padding-bottom: 160px;
   margin: 0 auto;
-  max-width: 320px;
+  @media screen and (min-width: 480px){
+    max-width: 480px;
+  }
+  
 
   @media screen and (min-width: 768px) {
-      padding-left: 10px;
-      padding-right: 10px;
+      padding-left: 34px;
+      padding-right: 34px;
+      padding-top: 37px;
+      padding-bottom: 34px;
       max-width: 768px;
   }
 
@@ -79,7 +87,7 @@
   @media screen and (max-width: 767.5px) {
       display: none;
   }
-
+  margin-left: 30px;
   display: flex;
   width: 159px;
   height: 44px;
@@ -96,13 +104,13 @@
   justify-content: center;
 }
 
-.header-button {
+.header-button__container {
   margin-left: auto;
   display: flex;
   z-index: 999;
   position: absolute;
-  top: 1%;
-  right: 3%;
+  top: 20px;
+  right: 15px;
 
   @media screen and (min-width: 1280px) {
       top: 0%;
@@ -113,27 +121,25 @@
 
 .header-btn__svg {
   margin-left: 12px;
+  fill:#FFFFFF
 }
 
 /* -------------------------------меню------------------------ */
 .open-menu-btn {
-  margin-right: 30px;
   display: flex;
   justify-content: end;
   align-items: center;
   background-color: transparent;
   border: none;
-
   @media screen and (min-width: 1280px) {
       display: none;
   }
 }
-
 .open-menu__svg {
   fill: #d41443;
+  width: 20px;
+  height: 20px;
 }
-
-
 .mob-menu__container {
   position: fixed;
   width: 250px;
@@ -254,14 +260,9 @@
 
 
 .hero-title-container {
-
-  padding-top: 137px;
-  padding-bottom: 160px;
-
-
-
-  @media screen and (min-width: 768px) {
-      padding-top: 15px;
+margin-top: 137px;
+   @media screen and (min-width: 768px) {
+      margin-top: 15px;
       margin-bottom: 66px;
       padding-bottom: 0px;
   }
@@ -302,7 +303,7 @@
 
 .hero-section__title {
 
-
+position: relative;
   font-family: Titan One;
   font-style: normal;
   font-weight: 400;
@@ -310,19 +311,16 @@
   line-height: 1.15;
   letter-spacing: 0.04em;
   text-transform: uppercase;
-
+z-index: 2;
   color: #FFFFFF;
-
   @media screen and (min-width: 768px) {
       font-size: 22px;
       line-height: 1.13;
-
+      margin-bottom: 66px;
   }
-
   @media screen and (min-width: 1280px) {
       font-size: 38px;
   }
-
 }
 
 .hero-section__title-red {
@@ -409,8 +407,7 @@
 
   @media screen and (min-width: 768px) {
       padding-left: 120px;
-      padding-bottom: 34px;
-  }
+        }
 
   @media screen and (min-width: 1280px) {
       padding-left: 180px;
@@ -464,12 +461,14 @@
   height: 344px;
   border-radius: 50%;
   background-color: #FFA5BA;
-  top: 13%;
-  right: -20%;
+  top: 75px;
+  right: -30px;
 
   @media screen and (max-width: 767.5px) {
-      margin-right: -20px;
+      // margin-right: -20px;
       z-index: 1;
+      top: 70px;
+      right: -30px;
   }
 
 
@@ -491,7 +490,7 @@
 
 .hero-main-pic {
   position: absolute;
-  top: 14.5%;
+  top: 16%;
   right: 4%;
 
   @media screen and (max-width: 767.5px) {
