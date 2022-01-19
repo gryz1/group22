@@ -53,25 +53,8 @@
   }
 }
 
-.text-wrapper__inner-wrapper {
-  // position: relative;
-  display: inline-block;
-}
-
-// .costomer-reviews__quote {
-//   position: absolute;
-//   fill: #e1e1e1;
-//   top: 24px;
-//   left: 5px;
-//   @media screen and (min-width: 768px) {
-//     left: -40px;
-//   }
-//   @media screen and (min-width: 1280px) {
-//     left: -35px;
-//   }
-// }
-
 .costomer-reviews__text {
+  display: inline-block;
   position: relative;
   padding-top: 43px;
   width: 157px;
