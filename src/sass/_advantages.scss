@@ -38,7 +38,9 @@
 .advantages__item {
   @media screen and (max-width: 767px) {
     max-width: 230px;
-    margin-bottom: 38px;
+    &:not(:last-child) {
+      margin-bottom: 38px;
+    }
   }
   @media screen and (min-width: 768px) {
     width: 180px;
