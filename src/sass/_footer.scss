@@ -18,8 +18,10 @@
   margin: 0 auto;
   display: flex;
   flex-direction: column;
-  max-width: 320px;
   padding-top: 113px;
+  padding-bottom: 25px;
+  padding-left: 20px;
+  padding-right: 20px;
   @media screen and (min-width: 480px) {
     max-width: 480px;
     padding-top: 113px;
@@ -28,21 +30,23 @@
     max-width: 768px;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
+    padding-left: 38px;
+    padding-right: 34px;
     padding-top: 158px;
+    padding-bottom: 21px;
   }
   @media screen and (min-width: 1280px) {
     max-width: 1280px;
     flex-wrap: nowrap;
-    justify-content: start;
     padding-top: 165px;
+    padding-left: 114px;
+    padding-right: 116px;
+    padding-bottom: 10px;
   }
 }
 
 .label-text {
   font-family: Titan One;
-  font-style: normal;
-  font-weight: normal;
   font-size: 18px;
   line-height: 1.17;
   text-transform: uppercase;
@@ -50,6 +54,7 @@
   margin-bottom: 17px;
   width: 234px;
   @media screen and (min-width: 768px) {
+    width: 340px;
     font-size: 26px;
     line-height: 1.15;
   }
@@ -62,8 +67,6 @@
 
 .label-title {
   font-family: Titan One;
-  font-style: normal;
-  font-weight: normal;
   font-size: 34px;
   line-height: 1.15;
   letter-spacing: 0.04em;
@@ -84,6 +87,7 @@
 
 .social-contacts-contacts {
   @media screen and (min-width: 768px) {
+    margin-left: auto;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -92,7 +96,6 @@
 
 .contacts-text {
   font-family: DM Sans;
-  font-style: normal;
   font-weight: 700;
   font-size: 12px;
   line-height: 1.86;
@@ -106,23 +109,16 @@
   @media screen and (min-width: 1280px) {
     font-size: 16px;
     line-height: 1.86;
-    margin-left: 257px;
-    margin-right: 116px;
+    margin-left: auto;
   }
 }
 
 .contacts__tel {
-  font-family: DM Sans;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 12px;
-  line-height: 1.86;
-  text-align: right;
-  color: var(--contacts-city-color);
-  &:hover,
-  &:focus {
-    color: var(--active--svg-color);
-  }
+  color: var(--main-tittle-color);
+  // &:hover,
+  // &:focus {
+  //   color: var(--active--svg-color);
+  // }
   @media screen and (min-width: 768px) {
     font-size: 14px;
     line-height: 1.86;
@@ -138,8 +134,7 @@
   display: flex;
   justify-content: flex-end;
   @media screen and (min-width: 1280px) {
-    margin-left: 420px;
-    margin-right: 121px;
+    margin-left: auto;
   }
 }
 
@@ -168,7 +163,7 @@
   margin: 0 auto;
   width: 140px;
   font-family: DM Sans;
-  font-style: Bold;
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.52;
   text-align: center;
