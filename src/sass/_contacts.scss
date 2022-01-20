@@ -42,23 +42,37 @@
   }
 }
 
-.contacts {
-  @media screen and (min-width: 480px) {
-    margin-left: 200px;
-  }
-  @media screen and (min-width: 768px) {
-    margin-left: 21px;
-  }
-  //@media screen and (min-width: 1280px) {
-  //margin-left: 100px;
-  //}
-}
+// .contacts {
+//   // @media screen and (min-width: 480px) {
+//   //   margin-left: 200px;
+//   // }
+//   // @media screen and (min-width: 768px) {
+//   //   margin-left: 21px;
+//   // }
+//   //@media screen and (min-width: 1280px) {
+//   //margin-left: 100px;
+//   //}
+// }
 
 .contacts-list {
+  // @media screen and (min-width: 320px) {
+  //   padding-left: 20px;
+  //   padding-top: 43px;
+  //   padding-right: 20px;
+  //   padding-bottom: 43px;
+  // }
+  margin-left: auto;
+  margin-right: auto;
   @media screen and (min-width: 768px) {
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 0px;
+    // padding-left: 31px;
+    // padding-top: 50px;
+    // padding-right: 31px;
+    // padding-bottom: 50px;
+  }
+  @media screen and (min-width: 1280px) {
   }
 }
 
@@ -73,11 +87,14 @@
   @media screen and (min-width: 320px) {
     width: 220px;
     height: 427px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
 
-    margin-left: 50px;
-    margin-bottom: 20px;
-    margin-left: 50px;
-    margin-bottom: 20px;
+    // margin-left: 50px;
+    // margin-bottom: 20px;
+    // margin-left: 50px;
+    // margin-bottom: 20px;
     overflow: hidden;
   }
 
@@ -85,7 +102,8 @@
     width: 220px;
     height: 544px;
     margin-left: 20px;
-    margin-bottom: 0px;
+    margin-right: 0;
+    //margin-bottom: 0px;
     &:first-child {
       margin-left: 0px;
     }
@@ -93,11 +111,15 @@
     @media screen and (min-width: 1280px) {
       width: 330px;
       height: 572px;
-      margin-left: 30px;
+      //   margin-left: 30px;
+      //   padding-left: 43px;
+      //   padding-top: 51px;
+      //   padding-right: 43px;
+      //   padding-bottom: 51px;
     }
   }
 }
-
+//=======================================================
 .contacts-list__title {
   font-weight: 500;
   font-size: 12px;
@@ -373,6 +395,7 @@
   &:hover,
   &:focus {
     background-color: var(--active--svg-color);
+    cursor: pointer;
   }
 
   @media screen and (min-width: 320px) {
@@ -404,6 +427,7 @@
   &:hover,
   &:focus {
     background-color: #ecebeb;
+    cursor: pointer;
   }
   @media screen and (min-width: 320px) {
     width: 161px;
