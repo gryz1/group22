@@ -27,10 +27,18 @@ ul {
 a {
   text-decoration: none;
   cursor: pointer;
+  &:hover,
+  &:focus {
+    border: none;
+  }
 }
 
 button {
   cursor: pointer;
+  &:hover,
+  &:focus {
+    border: none;
+  }
 }
 
 .visually-hidden {
