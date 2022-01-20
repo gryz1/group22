@@ -1,8 +1,6 @@
 .advantages__container {
   width: 100%;
-  // padding-left: 15px;
-  // padding-right: 15px;
-  // margin: 0 auto;
+  margin: 0 auto;
   padding-left: 20px;
   padding-right: 70px;
   @media screen and (min-width: 480px) {
@@ -14,7 +12,7 @@
     padding-right: 76px;
   }
   @media screen and (min-width: 1280px) {
-    max-width: 1050px;
+    max-width: 1280px;
     padding-left: 114px;
     padding-right: 116px;
   }
