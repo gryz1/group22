@@ -24,8 +24,9 @@
   }
 
   @media screen and (min-width: 1280px) {
-    padding-left: 15px;
-    padding-right: 15px;
+    position: relative;
+    padding-left: 46px;
+    padding-right: 115px;
     max-width: 1150px;
   }
 }
@@ -114,6 +115,11 @@
   position: absolute;
   top: 20px;
   right: 15px;
+  @media screen and (min-width: 768px) {
+  top: 38px;
+  right: 34px;
+  
+  }
 
   @media screen and (min-width: 1280px) {
     top: 6%;
@@ -238,8 +244,7 @@
 }
 
 .mob-menu__item {
-  // margin-left: 24px;
-  &:not(:last-child) {
+    &:not(:last-child) {
     margin-bottom: 23px;
   }
 }
@@ -276,8 +281,7 @@
 }
 
 .header-hero__left {
-  display: flex;
-  align-items: flex-end;
+margin-right: auto;
 }
 
 .header-hero__left-picg {
@@ -288,13 +292,13 @@
   }
 
   @media screen and (min-width: 768px) {
-    top: 57%;
-    right: 83%;
+    bottom: 28px;
+    left: 34px;
   }
 
   @media screen and (min-width: 1280px) {
-    top: 62%;
-    right: 82%;
+    left: 77px;
+    bottom: 45px;
   }
 }
 
@@ -323,15 +327,15 @@
   font-family: Titan One;
   font-style: normal;
   font-weight: 400;
-  font-size: 26px;
-  line-height: 1.15;
+  font-size: 46px;
+  line-height: 0.97;
   letter-spacing: 0.04em;
   text-transform: uppercase;
   color: #d41443;
 
   @media screen and (min-width: 768px) {
-    font-size: 22px;
-    line-height: 1.13;
+    font-size: 34px;
+    line-height: 0.91;
   }
 
   @media screen and (min-width: 1280px) {
@@ -423,7 +427,7 @@
   }
 
   @media screen and (min-width: 768px) {
-    padding-left: 120px;
+    margin-left: 120px;
   }
 
   @media screen and (min-width: 1280px) {
@@ -479,21 +483,20 @@
   height: 344px;
   border-radius: 50%;
   background-color: #ffa5ba;
-  top: 75px;
+  top: 85px;
   right: -30px;
 
   @media screen and (max-width: 767.5px) {
-    // margin-right: -20px;
     z-index: 1;
-    top: 70px;
-    right: -30px;
+    top: 85px;
+    right: -60px;
   }
 
   @media screen and (min-width: 768px) {
     width: 324px;
     height: 322px;
-    top: -3%;
-    right: 18%;
+    top: 31px;
+    right: 137px;
   }
 
   @media screen and (min-width: 1280px) {
@@ -506,16 +509,16 @@
 
 .hero-main-pic {
   position: absolute;
-  top: 16%;
-  right: 4%;
+  top: 92px;
+    right: 30px;
 
   @media screen and (max-width: 767.5px) {
     z-index: 1;
   }
 
   @media screen and (min-width: 768px) {
-    top: 14.3%;
-    right: 31%;
+  bottom: 0;
+  right: 247px;
   }
 
   @media screen and (min-width: 1280px) {
@@ -546,8 +549,8 @@
   }
 
   @media screen and (min-width: 768px) {
-    top: 19%;
-    right: 4%;
+    top: 94px;
+    right: 34px;
   }
 
   @media screen and (min-width: 1280px) {
@@ -646,8 +649,8 @@
   }
 
   @media screen and (min-width: 768px) {
-    top: 62.5%;
-    right: 4%;
+    bottom: 0;
+    right: 34px;
   }
 
   @media screen and (min-width: 1280px) {
