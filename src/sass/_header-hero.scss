@@ -25,6 +25,7 @@
 
   @media screen and (min-width: 1280px) {
     position: relative;
+    padding-bottom: 46px;
     padding-left: 46px;
     padding-right: 115px;
     max-width: 1150px;
@@ -122,8 +123,8 @@
   }
 
   @media screen and (min-width: 1280px) {
-    top: 6%;
-    right: -5%;
+    top: 38px;
+    right: 0;
   }
 }
 
@@ -431,9 +432,8 @@ margin-right: auto;
   }
 
   @media screen and (min-width: 1280px) {
-    padding-left: 180px;
-    padding-bottom: 56px;
-  }
+    margin-left: 250px;
+      }
 }
 
 .header-hero__description-text {
@@ -502,8 +502,8 @@ margin-right: auto;
   @media screen and (min-width: 1280px) {
     width: 538px;
     height: 538px;
-    top: 2%;
-    right: 9%;
+    top: 52px;
+    right: 150px;
   }
 }
 
@@ -522,8 +522,8 @@ margin-right: auto;
   }
 
   @media screen and (min-width: 1280px) {
-    top: 9%;
-    right: 26%;
+    top: 15%;
+    right: 30%;
   }
 }
 
@@ -554,8 +554,8 @@ margin-right: auto;
   }
 
   @media screen and (min-width: 1280px) {
-    top: 19%;
-    right: -5%;
+    top: 156px;
+    right: 0;
   }
 }
 
@@ -654,7 +654,7 @@ margin-right: auto;
   }
 
   @media screen and (min-width: 1280px) {
-    top: 62%;
-    right: -8%;
+    bottom: 0;
+    right: 0;
   }
 }
